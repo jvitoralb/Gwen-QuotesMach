@@ -1,0 +1,21 @@
+@use 'custom' as *;
+
+#main {
+    height: 70vh;
+}
+
+#drum-machine {
+    max-width: 590px;
+}
+
+.socials {
+    a {
+        text-decoration: none;
+        i:hover {
+            @include transition;
+            color: $purple;
+            transform: scale(1.1);
+        }
+    }
+}
+

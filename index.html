@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://kit.fontawesome.com/2e440afa55.js" crossorigin="anonymous"></script>
+    <title>Gwen Quotes Machine</title>
+</head>
+
+<body class="bg-secondary">
+    <header id="header" class="py-1 shadow-lg border-bottom border-dark">
+        <h1 class="text-center">Gwen Quotes Machine</h1>
+    </header>
+    <main id="main" class="d-flex flex-column justify-content-center">
+        <div id="drum-machine" class="container bg-light shadow-lg border border-dark">
+            <div class="row px-3 pt-4">
+                <div id="display" class="col border border-dark rounded">
+                    <h2 id="display-text" class="text-end fst-italic">Looking for a tailor?</h2>
+                </div>
+            </div>
+            <div class="row py-4 d-flex justify-content-evenly">
+                <div id="pads" class="col-md-8">
+                    <div class="row gy-2 px-3 d-flex flex-column">
+                        <div class="col btn-group">
+                            <button id="Q" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                Q
+                                <audio id="Q" class="clip" value="The struggle"
+                                    src="./audio/The struggle is worth it..ogg"></audio>
+                            </button>
+                            <button id="W" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                W
+                                <audio id="W" class="clip" value="I get to move my hands and feet"
+                                    src="./audio/Still can't believe I get to move my hands and feet all on my own!.ogg"></audio>
+                            </button>
+                            <button id="E" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                E
+                                <audio id="E" class="clip" value="Time"
+                                    src="./audio/No time like the present!.ogg"></audio>
+                            </button>
+                            <button id="R" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                R
+                                <audio id="R" class="clip" value="How sad"
+                                    src="./audio/How sad, you must be broken on the inside..ogg"></audio>
+                            </button>
+                        </div>
+                        <div class="col btn-group">
+                            <button id="A" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                A
+                                <audio id="A" class="clip" value="Life's charm"
+                                    src="./audio/No one said life would be easy. That is its charm, to be sure..ogg"></audio>
+                            </button>
+                            <button id="S" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                S
+                                <audio id="S" class="clip" value="Good Old times"
+                                    src="./audio/Just like the good old times. Sweet, simple, and out of control!.ogg"></audio>
+                            </button>
+                            <button id="D" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                D
+                                <audio id="D" class="clip" value="Meaning something"
+                                    src="./audio/I've got to make each footprint mean something..ogg"></audio>
+                            </button>
+                            <button id="F" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                F
+                                <audio id="F" class="clip" value="You are bad"
+                                    src="./audio/I heard something. You are bad' They said it, not me..ogg"></audio>
+                            </button>
+                        </div>
+                        <div class="col btn-group">
+                            <button id="Z" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                Z
+                                <audio id="Z" class="clip" value="Endurance"
+                                    src="./audio/I've certainly endured far worse than this..ogg"></audio>
+                            </button>
+                            <button id="X" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                X
+                                <audio id="X" class="clip" value="As many as takes"
+                                    src="./audio/I'll break as many needles as it takes to get this right..ogg"></audio>
+                            </button>
+                            <button id="C" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                C
+                                <audio id="C" class="clip" value="Experiencing Things"
+                                    src="./audio/I will experience everything like I never could before!.ogg"></audio>
+                            </button>
+                            <button id="V" class="btn btn-dark drum-pad fw-semibold" disabled>
+                                V
+                                <audio id="V" class="clip" value="No matter"
+                                    src="./audio/I sense their resolve. No matter, mine will be stronger..ogg"></audio>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 px-3 d-flex justify-content-evenly">
+                    <div class="row px-3">
+                        <div class="col">
+                            <label for="volume-control" class=" pt-1 fw-semibold">Volume</label>
+                            <input type="range" id="volume-control" min="0" max="10" value="5" class="form-range">
+                        </div>
+                        <div id="switch" class="col align-self-end d-flex justify-content-end">
+                            <div class="btn-group shadow-sm" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" class="btn-check" name="btnradio" id="switchOn" autocomplete="off">
+                                <label class="btn btn-outline-dark fw-semibold" for="switchOn">On</label>
+                                <input type="radio" class="btn-check" name="btnradio" id="switchOff" autocomplete="off"
+                                    checked>
+                                <label class="btn btn-outline-dark fw-semibold" for="switchOff">Off</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="row socials">
+                <div class="col d-flex justify-content-evenly fs-4">
+                    <a href="https://github.com/jvitoralb" target="_blank">
+                        <i class="fa-brands fa-github fa-xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jvitor-albuquerque/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>

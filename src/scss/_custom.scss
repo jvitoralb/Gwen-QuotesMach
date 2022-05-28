@@ -1,0 +1,26 @@
+// Varialbes to change
+$blue:    #50bcff;
+$cyan:    #4acde8;
+$teal:    #61fcfe;
+$purple:  #e326fc;
+
+// B&W to change
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-900: #0c1e4d;
+$black: #0c1e4d;
+
+
+// Theme colors
+$primary:       $black;
+$secondary:     $teal;
+$info:          $cyan;
+$light:         $gray-100;
+
+
+// Import Bootstrap.SCSS
+@import "../bootstrap/scss/bootstrap.scss"
+
