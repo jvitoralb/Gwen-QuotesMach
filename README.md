@@ -7,3 +7,5 @@ And that's because fcc's test in this project, the way I did it, with more featu
 
 So this project is a Drum machine, but when you click the pads a quote from Gwen - The Hallowed Seamstress, a League Of Legends character is played.  
 In this project, I used JavaScript, Bootstrap, and Sass.
+
+[Click here to see it live](https://jvitoralb.github.io/Gwen-QuotesMach/)!!
