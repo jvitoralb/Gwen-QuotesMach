@@ -8421,6 +8421,9 @@ textarea.form-control-lg {
 #drum-machine {
   max-width: 590px;
 }
+#drum-machine .drum-pad {
+  padding: 8px;
+}
 
 .socials a {
   text-decoration: none;
