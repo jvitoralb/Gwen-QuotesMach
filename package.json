@@ -6,7 +6,7 @@
   "scripts": {
     "build": "sass src/scss/style.scss:out/css/style.css"
   },
-  "author": "",
+  "author": "jvitoralb",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.0-beta1",
