@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: 18
     - run: npm install
-    - run: npm build
+    - run: npm run build
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
